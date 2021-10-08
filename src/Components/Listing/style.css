@@ -1,0 +1,16 @@
+.card-img {
+    height: 250px;
+    border-radius: 15px;
+}
+.price-wish{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:991px) {
+    .card-img {
+        height: 150px;
+        border-radius: 15px;
+    }
+}
